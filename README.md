@@ -5,9 +5,9 @@ perl script for verifying ip ranges matchs in a regular expression,  Useful for 
 
 example:
 ./check_ip_regex.pl "10.10.0.0/25" "^10\.10\.0\.((([1-9]|[1-9][0-9])|1[01][0-9])|12[0-8])$"
-IP = 10.10.0.0
-NET = 25
-NUMIPS = 128
-REGEX = ^10\.10\.0\.((([1-9]|[1-9][0-9])|1[01][0-9])|12[0-8])$
-matches = 128
+\nIP = 10.10.0.0
+\nNET = 25
+\nNUMIPS = 128
+\nREGEX = ^10\.10\.0\.((([1-9]|[1-9][0-9])|1[01][0-9])|12[0-8])$
+\nmatches = 128
 
